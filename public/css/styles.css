@@ -14,7 +14,7 @@ body {
      margin: 0%;
   } */
   nav{
-    background-color: #343a40;
+    background-color: #C5AA6A;
     margin: 0;
     top: 0%;
     display: flex;
@@ -34,34 +34,41 @@ body {
     text-decoration: none;
     font-weight: bold;
   } 
-  /* header {
-    background-color: #3c3d44;
-    padding: 1rem;
-  }
-  
-  header nav ul.menu {
+  .card1-container {
     display: flex;
-    list-style: none;
+    gap: 20px;
   }
   
-  header nav ul.menu li {
-    margin: 0 10px;
+  .card1{
+    background-color: rgb(196, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    color: black;
+     height: 100%;
   }
   
-  header nav ul.menu li a {
-    color: #fff;
+  .card1 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .card1 p {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card1 a {
+    color: black;
     text-decoration: none;
     font-weight: bold;
-  } */
+  }
   
-  /* .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    text-align: center;
-    background-color: #343a40;
-  } */
+  .card1 a:hover {
+    text-decoration: underline;
+  }
   
   .feature-text{
      margin-left: 65px;
@@ -367,11 +374,7 @@ ul li {
 .feature-item {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #eee;
     text-align: center;
-    /* flex: 1; */
-    /* margin: 0px 40px; */
-    /* border-radius: 8px; */
     transition: all 0.3s ease;
 
 }
@@ -458,22 +461,13 @@ ul li {
   height: 200px;
 }
 
-/* 
-body, html {
-  margin: 0;
-  padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: #2C2C2C;
-  color: white;
-  overflow-x: hidden;
-} */
 
 .slider-container {
   position: relative;
   width: 100%;
   max-width: 100%;
   height: 600px;
-  background: #333;
+  background: #4C1006;
 }
 
 .slider {
@@ -555,4 +549,7 @@ button:hover {
     transform: translate3d(85px, 0, 0);
   }
 }
+
+
+
 
